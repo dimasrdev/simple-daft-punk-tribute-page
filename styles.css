@@ -12,14 +12,19 @@ body {
 
 header,
 footer {
-  padding: 1rem;
+  padding: 1rem 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+header {
+  gap: 1rem;
+}
+
 footer {
+  padding: 1rem;
   gap: 1rem;
   text-align: center;
 }
